@@ -13,6 +13,12 @@ class ViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     
+    
+    let label = UILabel()
+    
+    label.font = UIFont.preferredFont(forTextStyle: .largeTitle)
+    label.adjustsFontForContentSizeCategory = true
+    
   }
   
 }
